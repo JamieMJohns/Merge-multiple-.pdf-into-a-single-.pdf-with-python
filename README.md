@@ -3,7 +3,7 @@
 This repository includes my code (python 2.7) for program which merges multiple .pdf files into a single .pdf file.  
 
 In this repository there are two .py files -  
-=> [] my original code (with user interface)  
-=> [] also my code but with the user face removed; the bare mininum for completing the same task. 
+=> (pdf_merger.py) my original code (with user interface)  
+=> (pdf_merger.py[bare_mininum].pdf) also my code but with the user face removed; the bare mininum for completing the same task. 
 
-Required modules/packages are; os and PyPDF2.
+Required python modules/packages for both codes are; os and PyPDF2.
