@@ -1,28 +1,21 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Apr 03 13:48:34 2018
-
 @author: Jamie M JOHNS 2018
 code is subject to improvement and optimization
-
 Source: https://github.com/JamieMJohns/Merge-multiple-.pdf-into-a-single-.pdf-with-python
-
 This pthon code was created and tested in spyder with python 2.7
-
 The code includes user interface for it's original use of being converted
 into a stand alone executable file (.exe)
-
 from the same github source, there is also a another .py file which
 is the bare mininum code for completing the same task.
-
 This code is subject to improvement and optimization.
-
-
 """
 
 import os # required module for find paths(directories) and files
 from PyPDF2 import PdfFileMerger ## required module (PyPDF2) and function (PdfFileMerger) for merging pdf files
 os.system('color 1F') #set color of text and background to respectivly be bright white and blue
+os.system('mode con:cols=80 lines=30') # set number of lines and columns for exe [not required, but original exe had too many columns/lines than needed]
 print '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@' #String for user interface
 print '@@@@@@@@@@@@@@ Merge multiple pdf files into one pdf @@@@@@@@@@@@@@@@@@@' #String for user interface
 print '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n' #String for user interface
